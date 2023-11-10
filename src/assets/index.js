@@ -1,6 +1,4 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -21,13 +19,15 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import draft_fantasy from "./company/draft_fantasy.png";
+import insmartcode from "./company/insmartcode.png";
+import ev_energy from "./company/evdotenergy.png";
+import city_hall from "./company/city_hall.png";
+
+import ev_energy_project from "./projects/ev_energy_project.png";
 
 export {
   logo,
-  backend,
-  creator,
   mobile,
   web,
   github,
@@ -46,6 +46,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
+  draft_fantasy,
+  insmartcode,
+  ev_energy,
+  city_hall,
+  ev_energy_project,
 };
