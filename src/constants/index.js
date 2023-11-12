@@ -20,6 +20,7 @@ import {
   ev_energy,
   city_hall,
   ev_energy_project,
+  snapfood_project,
 } from "../assets";
 
 export const navLinks = [
@@ -195,6 +196,28 @@ const projects = [
     image: ev_energy_project,
     company_image: ev_energy,
     source_link: "https://www.ev.energy/",
+  },
+  {
+    name: "Snapfood | Food Delivery App",
+    description:
+      "Enjoy your favorite foods wherever you are and have fun with friends. Craving something? Get it in a couple of taps! Order Now!",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-native",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: snapfood_project,
+    company_image: insmartcode,
+    source_link: "https://snapfood.al/",
   },
 ];
 

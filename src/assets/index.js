@@ -25,6 +25,7 @@ import ev_energy from "./company/evdotenergy.png";
 import city_hall from "./company/city_hall.png";
 
 import ev_energy_project from "./projects/ev_energy_project.png";
+import snapfood_project from "./projects/snapfood_project.png";
 
 export {
   logo,
@@ -51,4 +52,5 @@ export {
   ev_energy,
   city_hall,
   ev_energy_project,
+  snapfood_project,
 };
