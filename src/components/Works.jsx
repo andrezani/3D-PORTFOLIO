@@ -1,6 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-/* eslint-disable react/prop-types */
-
+import PropTypes from "prop-types";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -69,6 +68,16 @@ const ProjectCard = ({
   );
 };
 
+ProjectCard.propTypes = {
+  index: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  tags: PropTypes.array.isRequired,
+  image: PropTypes.string.isRequired,
+  company_image: PropTypes.string.isRequired,
+  source_link: PropTypes.string.isRequired,
+};
+
 const Works = () => {
   return (
     <>
@@ -80,7 +89,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-4xl leading-[30px]"
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
