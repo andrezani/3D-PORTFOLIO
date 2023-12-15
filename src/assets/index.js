@@ -26,6 +26,8 @@ import city_hall from "./company/city_hall.png";
 
 import ev_energy_project from "./projects/ev_energy_project.png";
 import snapfood_project from "./projects/snapfood_project.png";
+import ai_summarize_project from "./projects/ai_summarize_project.png";
+import snapster_project from "./projects/snapster_project.png";
 
 export {
   logo,
@@ -53,4 +55,6 @@ export {
   city_hall,
   ev_energy_project,
   snapfood_project,
+  ai_summarize_project,
+  snapster_project,
 };
