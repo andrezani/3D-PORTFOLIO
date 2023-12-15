@@ -12,6 +12,7 @@ import {
   nodejs,
   mongodb,
   git,
+  github,
   figma,
   docker,
   threejs,
@@ -21,6 +22,8 @@ import {
   city_hall,
   ev_energy_project,
   snapfood_project,
+  ai_summarize_project,
+  snapster_project,
 } from "../assets";
 
 export const navLinks = [
@@ -174,7 +177,7 @@ const experiences = [
   },
 ];
 
-const projects = [
+const works = [
   {
     name: "ev.energy | Smart EV Charging App",
     description:
@@ -221,4 +224,55 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const projects = [
+  {
+    name: "SummAI | AI Article Summarizer",
+    description:
+      "SummAI is a free tool that summarizes articles in a single click. It uses state-of-the-art Natural Language Processing techniques to summarize any piece of text.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "reduxjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ai_summarize_project,
+    company_image: github,
+    source_link: "https://github.com/andrezani/ai-summarize",
+  },
+  {
+    name: "Snapster | Social Media App",
+    description:
+      "Snapster is a Fullstack Social Media App. Built with React, Redux, Tailwind, and Appwrite. It is a fully functional social media app with authentication, posts, likes, saves and more.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "reduxjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "appwrite",
+        color: "red-text-gradient",
+      },
+    ],
+    image: snapster_project,
+    company_image: github,
+    source_link: "https://github.com/andrezani/FullStackSocialMediaApp",
+  },
+];
+
+export { services, technologies, experiences, works, projects };
